@@ -17,7 +17,7 @@ jobs:
     - name: Build da Imagem Docker
       uses: docker/build-push-action@v6
       with:
-        context: ./src/Dockerfile
+        context: ../src/Dockerfile
         push: true
         tags: | 
           jf-marques/aula-primeira-pipeline:v${{github.run_number}}
