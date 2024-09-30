@@ -21,6 +21,6 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: | 
-          jf-marques/aula-primeira-pipeline:v${{github.run_number}}
-           jf-marques/aula-primeira-pipeline:latest
+          jfmarques/aula-primeira-pipeline:v${{github.run_number}}
+           jfmarques/aula-primeira-pipeline:latest
   
