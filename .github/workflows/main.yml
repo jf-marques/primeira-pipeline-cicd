@@ -37,9 +37,9 @@ jobs:
     - name: Execução do Manifesto
       uses: Azure/k8s-deploy@v5
       with:
-        manifests: |
-          arguments: --validate=false
+        manifests: |          
           ./k8s/deployment.yaml
+          arguments: --validate=false
         images: |
           jfmarques/aula-primeira-pipeline:v${{ github.run_number }}
   
