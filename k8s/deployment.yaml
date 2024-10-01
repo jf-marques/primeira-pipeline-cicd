@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: jfmarques/primeira-pipeline-cicd
+        image: jfmarques/aula-primeira-pipeline
         ports:
         - containerPort: 5000
 --- 
