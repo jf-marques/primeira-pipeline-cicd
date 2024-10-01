@@ -40,5 +40,5 @@ jobs:
         manifests: |
           ./k8s/deployment.yaml
         images: |
-          fabricioveronez/aula-primeira-pipeline:v${{ github.run_number }}
+          jfmarques/aula-primeira-pipeline:v${{ github.run_number }}
   
