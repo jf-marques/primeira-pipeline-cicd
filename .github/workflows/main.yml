@@ -38,6 +38,7 @@ jobs:
       uses: Azure/k8s-deploy@v5
       with:
         manifests: |
+          arguments: --validate=false
           ./k8s/deployment.yaml
         images: |
           jfmarques/aula-primeira-pipeline:v${{ github.run_number }}
